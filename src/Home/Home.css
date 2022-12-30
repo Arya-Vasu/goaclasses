@@ -1,0 +1,27 @@
+.topBanner {
+    height: 300px;
+}
+
+.backButton {
+    position: absolute;
+    top: 175px;
+    left: 25px;
+  }
+  
+  .forwardButton {
+    position: absolute;
+    top: 175px;
+    right: 25px;
+  }
+  
+  .floatingBanners {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 440px;
+    background: linear-gradient(to left, #f2f106, #caf21e, #a0f137, #6fef4e, #12eb66);
+  }
+  .teacherName, .teacherDesc {
+      margin: 0;
+  }
